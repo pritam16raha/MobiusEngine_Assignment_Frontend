@@ -19,12 +19,12 @@ git clone https://github.com/pritam16raha/MobiusEngine_Assignment_Frontend.git
 bash
 Copy
 Edit
-npm install
+"npm install"
 3. Start Local Development Server
 bash
 Copy
 Edit
-npm run dev
+"npm run dev"
 Your app will be available at ➡️ http://localhost:5173
 
 ✨ Features Implemented
