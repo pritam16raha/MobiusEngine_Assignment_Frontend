@@ -14,8 +14,7 @@ The project focuses on a clean, responsive UI and a scalable code structure.
 bash
 Copy
 Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/pritam16raha/MobiusEngine_Assignment_Frontend.git
 2. Install Dependencies
 bash
 Copy
@@ -28,30 +27,6 @@ Edit
 npm run dev
 Your app will be available at ➡️ http://localhost:5173
 
-4. Build for Production
-bash
-Copy
-Edit
-npm run build
-🏗️ Folder Structure
-graphql
-Copy
-Edit
-├── public/
-│   └── icons/               # Static assets (icons/images)
-├── src/
-│   ├── assets/              # Fonts, images, misc assets
-│   ├── components/          # Reusable React components
-│   ├── data/                # Static or dummy data
-│   ├── pages/               # Main page sections
-│   ├── styles/              # Tailwind CSS configuration or extra styles
-│   ├── App.tsx              # Main App component
-│   └── main.tsx             # Entry point for Vite + React
-├── index.html               # Root HTML
-├── package.json             # Project dependencies and scripts
-├── tailwind.config.ts       # TailwindCSS configuration
-├── tsconfig.json            # TypeScript configuration
-└── README.md                # Project documentation (this file)
 ✨ Features Implemented
 ✅ Fully Responsive Layout
 
