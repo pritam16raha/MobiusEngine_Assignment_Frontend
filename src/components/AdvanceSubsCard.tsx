@@ -13,7 +13,6 @@ const features = [
 const AdvanceSubsCard = () => {
   return (
     <div className="w-full bg-primary rounded-2xl p-8 flex flex-col gap-6">
-      {/* Top bar */}
       <div className="flex justify-between items-start">
         <div>
           <h3 className="text-white font-heading text-3xl mb-1">Advance</h3>
@@ -34,14 +33,14 @@ const AdvanceSubsCard = () => {
           <ul className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-y-3">
             {features.map((feat, i) => (
               <li key={i} className="flex items-center gap-2">
-                <MdCheckCircle size={18} className="text-green-400" />
-                <span className="text-white text-lg font-body leading-tight">{feat}</span>
+                <MdCheckCircle size={20} className="text-green-400" />
+                <span className="text-white text-lg font-body leading-tight">
+                  {feat}
+                </span>
               </li>
             ))}
           </ul>
         </div>
-
-        {/* Button on right */}
         <div className="flex-none">
           <button className="bg-white text-primary flex items-center gap-2 px-8 py-3 rounded-full font-bold text-lg hover:bg-white/90 transition">
             Get Started
@@ -52,7 +51,7 @@ const AdvanceSubsCard = () => {
               strokeWidth="2"
               viewBox="0 0 24 24"
             >
-              {/* arrow pointing up‐right */}
+
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </button>

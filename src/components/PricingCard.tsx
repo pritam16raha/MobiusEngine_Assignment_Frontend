@@ -17,7 +17,7 @@ const PricingCard = ({
   features,
 }: PricingCardProps) => {
   return (
-    <div className="border border-primary rounded-3xl p-8 w-full max-w-[400px] flex flex-col justify-between">
+    <div className="border-2 border-primary rounded-3xl p-8 w-full max-w-[480px] flex flex-col justify-between">
       <div>
         <h3 className="text-primary font-heading text-2xl mb-2">{title}</h3>
         <p className="text-[15px] leading-tight font-bold text-primary mb-6">
@@ -35,9 +35,9 @@ const PricingCard = ({
           {features.map((feature, index) => (
             <li
               key={index}
-              className="flex items-start gap-2 text-primary text-sm font-bold"
+              className="flex items-start gap-2 text-primary text-lg font-bold"
             >
-              <FaCheckCircle className="text-green-500 mt-1" />
+              <FaCheckCircle size={20} className="text-green-500 mt-1" />
               {feature}
             </li>
           ))}

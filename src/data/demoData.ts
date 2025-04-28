@@ -20,15 +20,14 @@ export const pricingPlans = [
     id: 2,
     title: "Interview Prep",
     subtitle:
-      "End-to-end service for senior leaders looking to maximize their opportunities.",
+      "Two sessions to sharpen your story, confidence, and clarity — fast.",
     price: "$500",
     billing: "one time",
     features: [
-      "6× 30–min coaching sessions",
-      "Full resume rebuild + LinkedIn update",
-      "Custom cover letter creation",
-      "1:1 strategy sessions with career experts",
-      "Unlimited revisions for 30 days",
+      "2× 45–min live coaching with our co–founder",
+      "Real–time, practical feedback",
+      "Build clarity, empathy & executive presence",
+      "For senior and leadership roles — technical & non–technical",
     ],
   },
 ];
@@ -131,7 +130,6 @@ export const testimonials = [
     ],
   },
 ];
-
 
 export const founders = [
   {

@@ -9,7 +9,7 @@ type SubscriptionCardProps = {
   price: string;
   billingCycle: string;
   features: string[];
-  isPopular: boolean; // ✅ New prop
+  isPopular: boolean;
 };
 
 const SubscriptionCard: React.FC<SubscriptionCardProps> = ({
@@ -20,15 +20,12 @@ const SubscriptionCard: React.FC<SubscriptionCardProps> = ({
   isPopular,
 }) => {
   return (
-    <div className="relative flex flex-col justify-between border border-primary rounded-3xl p-6 w-full min-h-[520px] bg-white">
-      {/* Popular Badge */}
+    <div className="relative flex flex-col justify-between border-2 border-primary rounded-3xl p-6 w-full min-h-[520px] bg-white">
       {isPopular && (
         <div className="absolute top-6 right-6 px-4 py-1 text-sm rounded-full border border-primary text-primary font-semibold">
           Popular
         </div>
       )}
-
-      {/* Top Section */}
       <div>
         <h3 className="text-primary text-3xl font-semibold mb-6">{title}</h3>
         <div className="text-primary font-bold text-[52px] flex items-baseline gap-1 mb-4">
@@ -37,8 +34,6 @@ const SubscriptionCard: React.FC<SubscriptionCardProps> = ({
         </div>
 
         <div className="w-full h-px bg-gray-200 my-6" />
-
-        {/* Features */}
         <ul className="flex flex-col gap-3">
           {features.map((feature, idx) => (
             <li

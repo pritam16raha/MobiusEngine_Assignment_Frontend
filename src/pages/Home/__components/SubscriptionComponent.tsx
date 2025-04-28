@@ -8,14 +8,12 @@ const SubscriptionComponent = () => {
   return (
     <section className="w-full bg-white">
       <div className="max-w-secondary_container mx-auto flex flex-col gap-14">
-        {/* Heading Section */}
         <div>
           <h2 className="text-primary font-heading text-[32px] leading-tight font-semibold text-left mb-10">
             Job Application Service Plans
           </h2>
         </div>
 
-        {/* Cards Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {subscriptionPlans.map((plan) => (
             <SubscriptionCard
@@ -24,12 +22,10 @@ const SubscriptionComponent = () => {
               price={plan.price}
               billingCycle={plan.billingCycle}
               features={plan.features}
-              isPopular={plan.isPopular} // ✅ pass here
+              isPopular={plan.isPopular}
             />
           ))}
         </div>
-
-        {/* Advance Big Card */}
         <div className="w-full">
           <AdvanceSubsCard />
         </div>

@@ -9,7 +9,6 @@ type TestimonialCardProps = {
 const TestimonialCard: React.FC<TestimonialCardProps> = ({ text }) => {
   return (
     <div className="bg-primary flex-1 min-w-[300px] max-w-[400px] rounded-3xl overflow-hidden border border-primary flex flex-col justify-between">
-      {/* Top (Play Button Area) */}
       <div className="bg-white rounded-3xl flex items-center justify-center h-[250px]">
         <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center">
           <svg
@@ -22,9 +21,8 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ text }) => {
         </div>
       </div>
 
-      {/* Bottom (Text Area) */}
       <div className="text-white p-6 flex flex-col justify-between min-h-[150px]">
-        <p className="text-[16px] leading-snug text-white">
+        <p className="text-[18px] leading-snug text-white">
           {text.map((part, idx) =>
             typeof part === "string" ? (
               part
@@ -36,7 +34,6 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ text }) => {
           )}
         </p>
 
-        {/* Bottom Arrow Button */}
         <div className="flex justify-end mt-4">
           <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center">
             <svg

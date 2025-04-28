@@ -17,7 +17,6 @@ const StepsSection = () => {
           How we work?
         </h2>
 
-        {/* Steps Cards */}
         <div className="flex flex-wrap justify-between gap-6">
           {stepsData.map((step) => (
             <StepsCard

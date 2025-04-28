@@ -8,25 +8,25 @@ module.exports = {
         body: ["DM Sans", "sans-serif"],
       },
       colors: {
-        primary: "#0649E7", // Primary Blue
-        secondary: "#022183", // Dark Secondary
-        white: "#FEFEFE", // White
-        light: "#EBF1FF", // Light Background
-        black: "#101010", // Black
+        primary: "#0649E7",
+        secondary: "#022183", 
+        white: "#FEFEFE", 
+        light: "#EBF1FF", 
+        black: "#101010",
       },
       maxWidth: {
-        container: "1500px", // Max Width for the whole page
+        container: "1500px", 
         secondary_container: "1300px",
       },
       borderRadius: {
-        xl: "20px", // Round Corners = 20
+        xl: "20px", 
       },
       backdropBlur: {
         xs: "4px",
-        sm: "14px", // Blur 14px (for button background)
+        sm: "14px",
       },
       strokeWidth: {
-        1: "1", // Stroke 1px (for ebook button icon)
+        1: "1", 
       },
     },
 
@@ -34,7 +34,7 @@ module.exports = {
       center: true,
       padding: "1rem",
       screens: {
-        lg: "1500px", // Set container width
+        lg: "1500px", 
       },
     },
   },

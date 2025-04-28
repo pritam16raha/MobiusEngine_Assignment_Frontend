@@ -16,16 +16,12 @@ const Banner = () => {
           <Button text="Get Started →" />
         </div>
         <div className="relative w-[250px]">
-          {/* Book Image */}
           <img
             src="/image/image.png"
             alt="Ebook Cover"
             className="w-full h-auto "
           />
-
-          {/* Floating Book Icon */}
           <div className="absolute bottom-2 -right-5 flex flex-col items-center">
-            {/* Circle with Blur */}
             <div className="w-14 h-14 rounded-full border border-white bg-white/20 backdrop-blur flex items-center justify-center">
               <img src="/icons/book.png" alt="Book Icon" className="w-8 h-8" />
             </div>

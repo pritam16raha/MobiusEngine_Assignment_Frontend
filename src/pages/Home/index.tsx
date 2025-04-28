@@ -12,17 +12,10 @@ import WhyChooseUs from "./__components/WhyChooseUs";
 const HomePage = () => {
   return (
     <div className="relative w-full bg-white">
-      {/* Navbar */}
       <Navbar />
-
-      {/* Banner (full-width, not inside main) */}
       <Banner />
-
       <StepsSection />
-
       <AboutSection />
-
-      {/* Other page content */}
       <main className="container mx-auto pt-20">
         <TestimonialsSection />
 
@@ -32,11 +25,8 @@ const HomePage = () => {
 
         <ResumeComponent />
       </main>
-
-      {/* contact us */}
       <ContactUs />
 
-      {/* Footer */}
       <Footer />
     </div>
   );
